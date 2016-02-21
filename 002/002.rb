@@ -6,7 +6,6 @@
 
 def fibo(n)
 	return n if n == 0 || n == 1
-	x = 1, y = 1, z = 1, i = 2
 	x, y, z, i = 1, 1, 1, 2
 	while i < n
 		i += 1
