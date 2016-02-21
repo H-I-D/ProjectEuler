@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// time ./a.out => 20s
+// 20s
 
-// Euclidean Algorithm (http://edu.clipper.co.jp/pg-2-44.html)
+// Euclidean Algorithm
 int gcd(int x, int y){
 	if(y < 1) exit(0);  // error
 	int z;
@@ -24,7 +24,6 @@ int is_square(int a, int b, int c, int d){
 int main(){
 	int m = 100;
 	// printf("input m: "); scanf("%d", &m);
-	// int quadrilaterals = pow(m,4);
 	int lp_square = 0; // answer
 	for(int a = 1; a <= m; a++){
 		for(int b = 1; b <= m; b++){

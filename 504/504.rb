@@ -1,10 +1,6 @@
 # Problem 504
 
-# time ruby 504.rb => real: 1m30s
-
-#############################
-######## functions ##########
-#############################
+# time ruby 504.rb => 1m30s
 
 # def get_area(a, b, c, d)
 #   return (a+c) * (b+d) / 2
@@ -31,9 +27,6 @@ def is_square(a, b, c, d)
   lp_contains = ((a+c)*(b+d)/2) - (a.gcd(b) + b.gcd(c) + c.gcd(d) + d.gcd(a)) / 2 + 1
   return Math.sqrt(lp_contains).to_i ** 2 == lp_contains
 end
-
-###############################
-###############################
 
 # print 'input m: '
 # m = gets.to_i;
