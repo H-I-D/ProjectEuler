@@ -1,21 +1,13 @@
 # Problem 504
 
-# time ruby 504.rb => 1m30s
+# 1[m]30[s]
 
 # def get_area(a, b, c, d)
 #   return (a+c) * (b+d) / 2
 # end
 
 # def get_LP_side(a, b, c, d)
-  # lp_side = 4  # vertex
-  # for i in 1..m do
-  #   lp_side += 1 if (i % a == 0 || b % a == 0) && -b/a * i + b > 0 && -b/a * i < 0
-  #   lp_side += 1 if (i % d == 0 || a % d == 0) && -a/d * i + a > 0 && -a/d * i < 0
-  #   lp_side += 1 if (i % c == 0 || d % c == 0) && -d/c * i + d > 0 && -d/c * i < 0
-  #   lp_side += 1 if (i % b == 0 || c % b == 0) && -c/b * i + c > 0 && -c/b * i < 0
-  # end
-  #=> bad algorithm
-# 	return a.gcd(b) + b.gcd(c) + c.gcd(d) + d.gcd(a)
+#   return a.gcd(b) + b.gcd(c) + c.gcd(d) + d.gcd(a)
 # end
 
 # Pick's theorem
