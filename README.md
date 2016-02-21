@@ -1,2 +1,2 @@
 # ProjectEuler
-Project Euler Solutions
+![HideakiKanehara](https://projecteuler.net/profile/HideakiKanehara.png)
