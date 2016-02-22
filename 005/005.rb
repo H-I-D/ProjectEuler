@@ -1,3 +1,7 @@
+# Problem 005
+
+# 0.051[s]
+
 require 'Prime'
 p 2520.prime_division
 #=> [[2, 3], [3, 2], [5, 1], [7, 1]] => 2^3 * 3^2 * 5 * 7
