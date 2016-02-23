@@ -1,5 +1,4 @@
 # Problem 003
-
 # 0.044[s]
 
 require 'prime';
