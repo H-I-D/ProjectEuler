@@ -1,7 +1,7 @@
 class Fibo{
 	
 	// 0.01362[ms]
-	
+
 	// 0, 1, 1, 2, 3, 5, 8, ...
 	static int FIBO1(int n){
 		if(n<=0) return 0;
