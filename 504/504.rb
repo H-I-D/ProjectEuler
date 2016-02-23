@@ -1,6 +1,5 @@
 # Problem 504
-
-# 1[m]30[s]
+# 1[m]28[s]
 
 # def get_area(a, b, c, d)
 #   return (a+c) * (b+d) / 2
@@ -20,20 +19,9 @@ def is_square(a, b, c, d)
   return Math.sqrt(lp_contains).to_i ** 2 == lp_contains
 end
 
-# print 'input m: '
-# m = gets.to_i;
-m = 100
-# quadrilaterals_all = m ** 4  # (m - 1 + 1) ** 4
-
+# m = 100
+print 'input m: '
+m = gets.to_i;
 lp_square = 0  # answer
-for a in 1..m do
-  for b in 1..m do
-    for c in 1..m do
-      for d in 1..m do
-        lp_square += 1 if is_square(a, b, c, d)
-      end
-    end
-  end
-end
-
+1.upto(m){|a| 1.upto(m){|b| 1.upto(m){|c| 1.upto(m){|d| lp_square += 1 if is_square(a,b,c,d) } } } }
 puts "#{lp_square} quadrilaterals strictly contain a square number of lattice points in m = #{m}"
